@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Incluir Tarefa</string>
+    <string name="nome_da_tarefa">Nome da tarefa</string>
+    <string name="salvar">SALVAR</string>
+    <string name="responsavel">Responsável</string>
+    <string name="data_para_a_conclusao">Data para a conclusão</string>
+    <string name="hora">Hora</string>
+    <string name="descreva_a_tarefa">Descreva a tarefa</string>
+    <string name="icone_de_tarefa">Ícone de tarefa</string>
+    <string name="icone_de_pessoa">Ícone de pessoa</string>
+    <string name="icone_de_relogio">Ícone de relógio</string>
+</resources>
