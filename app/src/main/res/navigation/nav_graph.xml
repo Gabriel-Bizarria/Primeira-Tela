@@ -13,5 +13,9 @@
         android:id="@+id/listFragment"
         android:name="com.generation.recyclerview.ListFragment"
         android:label="fragment_list"
-        tools:layout="@layout/fragment_list" />
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_incluirFragment2"
+            app:destination="@id/incluirFragment2" />
+    </fragment>
 </navigation>

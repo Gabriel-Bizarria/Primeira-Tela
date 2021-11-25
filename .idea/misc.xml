@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/usuario/Downloads/Primeira-Tela-teste/Primeira-Tela-teste/app/src/main/res/layout/activity_main.xml" value="0.225" />
-        <entry key="..\:/Users/usuario/Downloads/Primeira-Tela-teste/Primeira-Tela-teste/app/src/main/res/layout/fragment_list.xml" value="0.14629629629629629" />
+        <entry key="..\:/Users/usuario/Downloads/Primeira-Tela-teste/Primeira-Tela-teste/app/src/main/res/layout/fragment_incluir.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/Downloads/Primeira-Tela-teste/Primeira-Tela-teste/app/src/main/res/layout/fragment_list.xml" value="0.17592592592592593" />
         <entry key="..\:/Users/usuario/Downloads/Primeira-Tela-teste/Primeira-Tela-teste/app/src/main/res/layout/fragment_lista_tasks.xml" value="0.2109375" />
+        <entry key="..\:/Users/usuario/Downloads/Primeira-Tela-teste/Primeira-Tela-teste/app/src/main/res/layout/item_tarefa.xml" value="0.25" />
         <entry key="..\:/recyclerview/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/recyclerview/app/src/main/res/layout/fragment_incluir.xml" value="0.25" />
         <entry key="..\:/recyclerview/app/src/main/res/layout/fragment_lista_tasks.xml" value="0.3625" />

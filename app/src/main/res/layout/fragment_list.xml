@@ -6,14 +6,83 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ListFragment">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_list"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_25percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_50percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_75percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <TextView
+        android:id="@+id/titleFragment"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
+        android:text="Pendencias"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@id/icon_person"
+        app:layout_constraintTop_toBottomOf="@id/titleFragment"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageButton
+        android:id="@+id/icon_person"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_baseline_person_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guideline_25percent"
+        app:layout_constraintTop_toBottomOf="@id/rv_list" />
+
+
+    <ImageView
+        android:id="@+id/icon_add"
+        app:layout_constraintTop_toTopOf="@+id/icon_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/icon_person"
+        app:layout_constraintEnd_toStartOf="@id/guideline_50percent"
+        app:srcCompat="@drawable/ic_baseline_queue_24" />
+
+    <ImageView
+        android:id="@+id/icon_note"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_note_add_24"
+        app:layout_constraintBottom_toBottomOf="@id/icon_person"
+        app:layout_constraintEnd_toStartOf="@id/guideline_75percent"
+        app:layout_constraintTop_toTopOf="@+id/icon_person"
+
+
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
